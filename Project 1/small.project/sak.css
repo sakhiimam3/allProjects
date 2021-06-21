@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+}
+
+body{
+     
+    /* background-color: rgb(47, 47, 51); */
+    background-image: url(git.jpg);
+    
+}
+
+
+ul{  
+     background-color:rgb(43, 49, 30);
+     color: blanchedalmond; 
+     /* display: inline;  */
+     padding: 30px;
+    
+    }
+
+
+ li{ 
+    list-style: none;
+    display: inline;
+    margin-right: 50px;}
+    li>a{
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 3px solid blue;
+    word-spacing: 15px;
+}
+
+
+ li:hover{
+     color: rgb(49, 146, 49);
+     
+     cursor: pointer;
+ }   
+
+label{
+    color: black;
+    font-weight: bold;
+    font-size: larger;}
+form{ 
+    margin-top: -400px;
+    margin-left: 650px;
+    border:1px solid white;
+    /* padding: 10px; */
+    
+    /* text-align: initial; */
+    background-color: white;
+    font-size: 16px;
+    text-align: left;
+    max-width: 400px;
+    
+}
+.button{
+    
+}
+
+
+
+
+
+.poora{  
+    font-size: 22px;
+    color:white;
+     margin-left: 100px;
+    padding-top: 40px;
+      
+    } 
+.poor{
+    font-size: 50px;
+    color:white;
+    margin-left: 100px;
+    padding-top: 90px;
+    font-family: sans-serif;
+    
+}
+.button{
+    size: 30px;
+    width: 370px;
+    height: 40px;
+    border: 1px solid rgb(1, 99, 9);
+    background-color: rgb(1, 99, 9);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.nation{
+    width: 200px;
+    margin-left: 70px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+}
+.set{
+    margin-top: -300px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.dec{
+    text-decoration: none;
+    color: greenyellow;
+}
+.decem{
+    color: dimgrey;
+
+    
+    text-decoration: none;
+    margin-top: 20px;
+}
+.form1{
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.impo{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px ;
+    background-color: rgb(191, 192, 192);
+    
+}
+.go{
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(157, 164, 167);
+}
+
+/* btn style */
+a.btn-theme {
+    display: block;
+    background: green;
+    padding: 13px 35px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0 0;
+    line-height: normal;
+    transition: .5s all;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    border-radius: 30px;
+    text-align: center;
+}
+a.btn-theme::before {content: "";position: absolute;left: 0;right: 0;top: 0;bottom: 0;width: 0;height: 100%;background: #000;z-index: -1;transition: .5s all;}
+a.btn-theme:hover::before {
+    width: 100%;
+}
+
+.btn-area {
+    margin-right: 45px;
+}

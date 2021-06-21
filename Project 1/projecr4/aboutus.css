@@ -1,0 +1,125 @@
+
+h1{
+    
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 150px;
+    font-weight: 900;
+}
+
+.maindiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    height: 850px;
+    
+}
+.text1{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: gray;
+    text-align: justify;
+    color: rgb(163, 154, 154);
+    min-width: 600px;
+    
+}
+.img{
+    
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 800px;
+
+}
+.nur{
+    margin-top: -120px;
+    margin-left: 100px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.doc{
+    margin-top: -40px;
+    margin-left: -50px;
+    width: 300px;
+    height: 300px;
+}
+
+#more{
+   display: none;
+}
+#secpart{
+    
+    width: 1100px;
+    height: 800px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+
+
+
+
+
+
+.heading{
+    
+     letter-spacing: 0.1;
+    display: inline-block;
+     font-family: sans-serif;
+     font-size: 25px;
+     font-weight: 900;
+     color: black;
+     word-spacing: 1px;
+     margin-left: 100px;
+     margin-top: 150px;
+
+}
+.doc2{
+    float:right;
+    width: 570px;
+    height: 450px;
+    margin-top: -240px;
+    margin-right: 0px;
+}
+#read{
+        color: cornsilk;
+        width: 140px;
+        height: 40px;
+        background-color: rgb(88, 201, 54);
+        border-radius: 25px;
+        font-size: 13px;
+        font-family: sans-serif;
+        margin-top: 30px;
+}
+#read:hover{
+    outline: none;
+    color: darkred;
+    background-color: deepskyblue;
+    border-radius: 25px;
+}
+.doc3{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 210px;
+    width: 530px;
+    height: 400px;}
+    .textbottom{
+        
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        margin-left: 610px;
+        margin-top: -260px;
+    }
+    .our{
+        letter-spacing: 0.1;
+        display: inline-block;
+         font-family: sans-serif;
+         font-size: 25px;
+         font-weight: 900;
+         color: black;
+         margin-left: 40px;
+    }

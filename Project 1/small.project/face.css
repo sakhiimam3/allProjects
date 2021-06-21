@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color:#E9EBEE;
+    
+}
+
+.maindiv{
+    
+    height: 100px;
+    background-color: #4E69A2;
+}
+h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.right{
+    float: left;
+}
+ .left{
+     
+     float: left;
+     margin-left: 450px;
+     margin-top: 30px;
+ }
+ .left1{
+     float: left;
+ }
+.left2{
+    float: left;
+    
+}
+.left3{
+    float: left;
+    margin-left: 200px;
+    margin-top: -45px;
+    
+}
+.text1{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-left: 1px;
+}
+.input2{
+    margin-left: 15px;
+}
+.text2{
+    color:rgb(235, 241, 240);
+    font-family: sans-serif;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.tex{
+    margin-bottom: 5px;
+    color: #ffff;
+    margin-left: 15px;
+}
+
+
+.login{
+    background-color: #4267B2;
+    color: burlywood;
+}
+.main2{
+    float: left;
+}
+.right1{
+    /* float: left; */
+}
+.right2{
+    float: left;
+    
+}
+.left4bottom{
+    float: left;
+    
+    margin-top: -60px;
+    margin-left: 50px;
+}
+form{
+    background-color: ;
+}
+h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    color:white;
+}
+h2{
+    font-size: 30px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 40, 40);
+
+}
+
+.name{
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(170, 159, 159)
+    ;
+    border-radius: 8px;
+}
+.name1{
+    width: 400px;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid rgb(180, 173, 173)
+    ;
+    border-radius: 8px ;
+}
+
+.text2:hover{
+  cursor: pointer;
+ color: rgb(83, 51, 10);
+
+}
+
+.sideimage{
+    width: 530px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+h4{
+    /* color: white; */
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 120px;
+    color:rgb(124, 118, 106);
+}
+b{
+    color:gray;
+    
+}
+.textlast{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.sub{
+    height: 30px;
+    width: 180px;
+    margin-top: 15px;
+    background-color: #68A153;
+    border-radius: 5px;
+    color: white;
+}
+.stro{
+    margin-top: 30px;
+}
+.in{
+    display: inline;
+    margin-left: 15px;
+}
+.sub:hover
+{
+    background-color: rgb(71, 187, 255);
+    cursor: pointer;
+}

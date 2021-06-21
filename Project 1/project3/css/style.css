@@ -1,0 +1,367 @@
+
+
+/* home page */
+
+/* @media screen and (max-width: 500px) {
+    body {
+      width: 100%;;
+    }
+  } */
+header{
+    background-color:#fff;
+}
+  body{
+      margin: 0px;
+      padding: 0px;
+  }
+ 
+  
+ 
+.niv{
+    opacity: 8px;
+}
+
+
+#navbarText{
+    margin-right: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.navicons{
+    margin-top: 10px;
+}
+.naviconslan{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 20px;
+    
+    
+}
+.textdiv{
+    border: 2px solid rgb(207, 199, 199);
+    position: absolute;
+    margin-top: -400px;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+
+}
+.home-slider-item {
+    position: relative;
+}
+
+.home-slider-item .text-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 160px;
+    width: 50%;
+    text-align: c;
+}
+
+.home-slider-item .text-box p {
+     color: #fff;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(JosefinSans-VariableFont_wght.ttf);
+  }
+.wel{
+    margin-left: 110px;
+    letter-spacing: 15px;
+    color:#888682;
+    font-size: 19px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 7px;
+
+}
+.text2{
+  color: #ffff;
+  font-size: 126px;
+  font-family: myFirstFont;
+
+
+}
+.readmore{
+    position: relative;
+    width: 165px;
+    margin-left: 180px;
+    margin-top: 30px;
+    outline: none;
+
+}
+.readtex{
+    position: absolute;
+    color: white;
+    margin-left: -130px;
+    margin-top: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .text3{
+    letter-spacing: 20px;
+    color: #ffffff; */
+    
+
+.line{
+    margin-left: 80px;
+    letter-spacing: 30px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px)
+{
+   .line{
+       width: 200px;
+       margin-left: -0px;
+       margin-top: 20px;
+   }
+
+}
+
+
+@media screen and (max-width:500px)
+{
+   .img2,.img3{
+       width: 500px;
+   }
+
+}
+.bottom-tex{
+    margin-left: 10px;
+}
+
+/* about work */
+
+.row{
+    margin-top: 30px;
+}
+.font1{
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #616161;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+.font2{
+   margin-left: 50px;
+  font-weight: bolder;
+  color: #616161;
+  padding: 8px 16px;
+  font-family: myFirstFont;
+}
+.font3{
+    font-family: myFirstFont;
+    font-size: 18px;
+    padding: 8px 16px;
+
+}
+
+.col-sm-3{
+    margin-top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+}
+.img2{
+    margin-left: 140px;
+    margin-top: -720px
+}
+.img3{
+    margin-left: 420px;
+    margin-top: -400px;
+    position: relative;
+}
+.img4{
+    position: absolute;
+    float:right;
+    margin-left: 80px;
+    margin-top: -270px;
+
+}
+
+
+  .about{
+      
+      margin-top: 50px;
+      margin-left: 550px;  
+     
+  }    
+
+@media screen and (max-width:500px)
+{
+   .img2,.img3{
+       width: 500px;
+   }
+
+}
+
+@media screen and (max-width:500px)
+{
+   .img4{
+       width:40px;
+       height: 40px;
+   }
+
+}
+
+
+
+
+  /* product work */
+     .img-head{
+        margin-top: 20px;
+        margin-left: 50px;
+        color: rgb(53, 31, 31);
+        font-family: sans-serif;
+    }
+
+  .link{
+      margin-left: 70px;
+      position: absolute;
+      margin-top: -40px;
+    
+  }
+  .link>a{
+      color: cornsilk;
+      font-family: myFirstFont;
+      font-size: 18px;
+  }
+
+    .more-detail{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 90px;
+        height: 40px;
+        background-color: #fbb045;
+        font-weight: bold;
+        z-index: 2;
+    }
+    .link-img{
+        margin-left: 30px;
+        margin-top:50px;
+        position: relative;
+        
+    } 
+
+    
+/* services work */
+
+
+
+.deff1{
+    color: #fbb045;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+.deff2{
+    color: #9fcb3a;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+.hand{
+    margin-left: -100px;
+}
+.dd1{
+    font-size: 17px;
+    color: gray;
+ } 
+
+
+/* news section */
+
+@media screen and (max-width: 500px) {
+    .respon {
+      width: 100%;
+    }
+  }
+
+
+
+#news{
+    margin-left: 400px;
+}
+
+/* conctact us work */
+#footercolor{
+    background-color: #0b0b0b;
+}
+.user{
+    margin-top: 10px;
+}
+.put{
+
+    width: 80%;
+    height: 10%;
+    border: 0;
+    outline: aliceblue;
+    background: transparent;
+    color: #fff !important;
+    font-size: 14px;
+    border-bottom:2px solid #fff 
+}
+.footicon1{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid wheat;
+    background-color:rgb(59,89,152);
+    border-radius: 6px;
+    padding: 4px;
+
+
+  
+}
+.footicon2{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid wheat;
+    background-color:rgb(0,172,237);
+    border-radius: 6px;
+    padding: 4px;
+
+
+  
+}.footicon3{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid wheat;
+    background-color:rgb(14,118,168);
+    border-radius: 6px;
+    padding: 4px;
+
+
+  
+}.footicon4{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid wheat;
+    background-color:rgb(213,37,82);
+    border-radius: 6px;
+    padding: 2px;
+
+
+  
+}
+.copy{
+    text-align: center;
+    font-size: 23px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+

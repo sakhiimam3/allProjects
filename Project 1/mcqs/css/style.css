@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.timer{
+    background: linear-gradient(rgb(63, 16, 42),rgb(56, 54, 2),rgb(65, 34, 29));
+    width: 340px;
+    height: 250px;
+    border: 2px solid red;
+    margin: 0 auto;
+    color: rgb(83, 209, 9);
+    
+}
+.timer>b{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: rgb(207, 167, 44)
+}
+
+.main{
+    background: linear-gradient(rgb(94, 57, 2),rgb(19, 20, 34),rgb(68, 25, 25));
+}
+.question{
+    text-align: center;
+    color: honeydew;
+    
+
+
+}
+.qsec{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 2px solid wheat;
+    background: linear-gradient(rgb(235, 250, 21),rgb(7, 12, 27),rgb(10, 37, 10));
+}
+.result{
+     color: rgb(184, 218, 186);
+    background-color: rgb(231, 12, 12);
+    border-radius: 9px;
+    width: 200px;
+    padding: 20px 20px;
+    font-size: 30px;
+} 
+.option{
+    font-size: 30px;
+}
+.btn{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    background-color:black ;
+    height: 20px;
+
+}
+
+
+#result{
+    margin: 0 auto;
+    border: 3px solid black;
+   width: 600px;
+   height: 100px;
+    background:linear-gradient(rgb(90, 90, 155),rgb(19, 22, 5),rgb(10, 37, 10)); ;
+}
+#final{
+    line-height: 50px;
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+    border: 2px dashed brown;
+    font-size: 23px;
+    color: rgb(238, 247, 229);
+    background:linear-gradient(rgb(102, 235, 120),rgb(248, 115, 82),rgb(10, 37, 10)); 
+}
+.function{
+    background:linear-gradient(rgb(222, 240, 23),rgb(20, 19, 19),rgb(10, 37, 10)); ;
+   color: wheat;
+   width: 120px;
+
+
+}
+.answers{
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    color: bisque;
+}
+
+h3{
+    font-size: 14px;
+    background-color: rgb(36, 46, 26);
+    color: cornsilk;
+}
+
+@media only screen and (max-width: 500px) {
+    #result,#final {
+         width: 100%;
+    }
+    .answers,#option,#percentage{
+          width: 100%;
+          height: 100px;
+          background-color: blue;
+    }
+    .btn{
+           position: absolute;
+           margin-left: -10px;
+           color: blanchedalmond;
+           font-size: 5px;
+           
+    }
+
+.timer{
+      width: 95%;
+}
+
+}

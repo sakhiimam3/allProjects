@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main{
+  border: 3px solid blue;
+  width: 200px;
+   height: 150px;
+   margin: 0 auto;
+   background-color: brown;
+   display: flex;
+   flex-wrap: wrap;}
+
+.input{
+    width: 95%;
+    background-color: cadetblue;
+}
+.clear{
+    width: 199px;
+    margin-top: 10px;
+    background-color: darkorange;
+    color: wheat;
+}
+.btn{
+    width: 45px;
+    background-color: black;
+    color: blanchedalmond;
+    margin: 1px;
+}
+.bottom{
+    width: 98px;
+    background-color: khaki;
+
+} 
+
+
+
+    </style>
+</head>
+<body>  
+    
+         <div class="main">
+            <div><input id="result" class="input" type="text">
+            </div>
+         <div><button id="clean"   onclick="clearRes()" class="clear">c</button></div>
+
+         <div>
+     <button class="btn"  onclick="getNum('7')">7</button>
+     <button class="btn"  onclick="getNum('8')">8</button>
+     <button class="btn" onclick="getNum('9')" >9</button>
+     <button class="btn" onclick="getNum('x')">x</button>
+
+         </div>
+         <div>
+            <button class="btn" onclick="getNum('4')">4</button>
+            <button class="btn"onclick="getNum('5')">5</button>
+            <button class="btn" onclick="getNum('6')">6</button>
+            <button class="btn" onclick="getNum('-')">-</button>
+       
+                </div>
+                <div>
+                    <button class="btn" onclick="getNum('1')">1</button>
+                    <button class="btn" onclick="getNum('2')">2</button>
+                    <button class="btn" onclick="getNum('3')">3</button>
+                    <button class="btn" onclick="getNum('+')">+</button>
+               
+                        </div>
+                        <div>
+                            <button class="bottom" onclick="getNum('0')">0</button>
+                            <button class="bottom" onclick="abc()">=</button>
+                           
+                                </div>
+                   
+
+
+
+         </div>
+         <script src="cal.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    border-radius: 5px;
+    
+}
+legend{
+    background-color: lightgray;
+    color: royalblue;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+button>a{
+    font-size: 25px;
+    
+    color: rgb(75, 50, 4);
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+
+}
+form{
+    width: 700px;
+    margin: auto;
+    background: linear-gradient(black,green,gray);
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+a:hover{
+     background-color: rgb(19, 36, 19);
+     color: honeydew;
+
+}

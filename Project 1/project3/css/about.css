@@ -1,0 +1,64 @@
+@media screen and (max-width: 500px) {
+   body  {
+      
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+
+
+.row{
+    margin-top: 30px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sak.ttf);
+}
+.font1{
+  font-family: myFirstFont;
+  font-size: 20px;
+}
+
+.col-sm-3{
+    margin-top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+}
+.navicons{
+    margin-top: 10px;
+}
+
+.img2{
+    margin-left: 140px;
+    margin-top: -580px;
+}
+.img3{
+    margin-left: 420px;
+    margin-top: -400px;
+}
+.img4{
+    margin-top: -400px;
+    margin-left: 60px;
+}
+@media screen and (max-width: 500px) {
+    .img2  {
+       
+       width: 100%;
+     }
+   }
+
+
+
+
+@media screen and (max-width: 500px) {
+    .img3  {
+       
+       width: 100%;
+     }
+   }
+   @media screen and (max-width: 500px) {
+    .img4  {
+       
+       width: 100%;
+     }
+   }

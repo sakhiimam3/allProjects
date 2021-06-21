@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+      <div class="main">
+    <fieldset class="question">
+        <h1>Quiz app</h1> 
+        <div class="timer">
+          <b>minute</b>/<b>Second</b><br>
+          <b id="min">0</b>/<b id="sec">0</b><br>
+          <b>  max:4min <b> <br> <br>
+            <button class="function" onclick="start()">Start</button>
+           <br>
+            <b>Passing marks: 12</b><br>
+            <b>Each question carry one mark so be carefull.</b>
+        </div> <br>
+        
+   <p class="qsec"><b>Question no 1:</b> <br> Who is the first governer of pakistan.?</p> <br>
+      <input class="option" type="checkbox"     name="checkbox" id="qno1_ans1"> Quad.e.Azam </input><br>
+      <input class="option" type="checkbox"     name="checkbox" id="qno1_ans2"> liaqat ali khan</input><br>
+      <input class="option" type="checkbox"     name="checkbox" id="qno1_ans3"> Sikander.e.Azam</input><br>
+      <input class="option" type="checkbox"     name="checkbox" id="qno1_ans4"> Nawaz shareef </input><br>
+     
+   <br>
+     <p class="qsec"><b>Question no 2:</b> <br> How many  names of ALLAH Almighty?</p><br>
+     <input class="option" type="checkbox" name="checkbox" id="qno2_ans1"> 88 </input><br>
+     <input class="option" type="checkbox" name="checkbox" id="qno2_ans2"> 56</input><br>
+     <input class="option" type="checkbox" name="checkbox" id="qno2_ans3"> 99</input><br>
+     <input class="option" type="checkbox" name="checkbox" id="qno2_ans4"> 30 </input><br>
+    
+    
+     <br>
+     <p class="qsec"><b>Question no 3:</b> <br> LED stands for?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno3_ans1"> light emiting dimension </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno3_ans2"> light emiting diodes </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno3_ans3"> light emiting distance</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno3_ans4"> none of these </input><br>
+    
+     <br>
+     <p class="qsec"><b>Question no 4:</b> <br> 10+10(3*5)=?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno4_ans1"> 25 </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno4_ans2"> 45 </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno4_ans3"> 30</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno4_ans4"> 35 </input><br>
+    
+     <br>
+     <p class="qsec"><b>Question no 5:</b> <br> Which waves are used in cellular phone ?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno5_ans1"> logitudnal waves </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno5_ans2"> Altra waves </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno5_ans3"> Radio waves</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno5_ans4"> Eletctro negavtive waves </input><br>
+    
+     <br>
+     <p class="qsec"><b>Question no 6:</b> <br> Holy prophet(P.B.U.H) participated in how many Ghazwas?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno6_ans1"> 30 </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno6_ans2"> 27 </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno6_ans3"> 45</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno6_ans4"> None of these </input><br>
+    
+     <p class="qsec"><b>Question no 7:</b> <br> khyber Pass connects?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno7_ans1"> Pakistan & Iran</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno7_ans2">  Pakistan & India </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno7_ans3">  Pakistan & China</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno7_ans4">  Pakistan & Afghanistan </input><br>
+    
+    
+     <p class="qsec"><b>Question no 8:</b> <br>Duration of National Anthem of Pakistan?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno8_ans1"> 85sec</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno8_ans2"> 78sec </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno8_ans3"> 90sec</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno8_ans4"> 80sec </input><br>
+    
+     <p class="qsec"><b>Question no 9:</b> <br> first reveled surah?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno9_ans1"> surah Iklaas</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno9_ans2"> surah Alaq </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno9_ans3"> surah bakara</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno9_ans4"> surah khosar </input><br>
+     
+     <p class="qsec"><b>Question no 10:</b> <br>Length of Karakrm Highway?</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno10_ans1"> 1,300km</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno10_ans2"> 1,500km </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno10_ans3"> 1.600km</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno10_ans4"> 1,800km </input><br>
+     
+     <p class="qsec"><b>Question no 11:</b> <br>پاکستانی میں سب سے پہلی پرائیویٹ فضائی کمپنی کو نسی تھی</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno11_ans1"> بھوجا ائیر لائن</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno11_ans2"> ہجویری ائیر لاین </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno11_ans3"> سیف ائیر لائن</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno11_ans4">شاہین ائیر لائن </input><br>
+     
+       
+     <p class="qsec"><b>Question no 12:</b> <br>کعبہ شریف میں پہلی اذان کب دی گئی؟</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno12_ans1"> 10Hijri</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno12_ans2"> 8Hijri </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno12_ans3"> 7Hijri</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno12_ans4"> 9Hijri </input><br>
+     
+     <p class="qsec"><b>Question no 13:</b> <br>آپ بتا سکتے ہیں کہ خشک کاغذ میں کتنے فیصد پانی ہوتاہے؟</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno13_ans1"> 10 فیصد</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno13_ans2"> 6 فیصد </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno13_ans3"> 8 فیصد</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno13_ans4"> 12 فیصد </input><br>
+
+     <p class="qsec"><b>Question no 14:</b> <br>نیوزی لینڈ کی کرنسی کا نام کیا ہے؟</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno14_ans1">یورو</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno14_ans2"> ڈالر</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno14_ans3">فرانک</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno14_ans4"> پاؤنڈ </input><br>
+    
+     <p class="qsec"><b>Question no 15:</b> <br>جنگلات کا رقبہ دنیا میں بھر میں سب سے زیادہ کس ملک کا ہے؟</p><br>
+     <input class="option" type="checkbox" name="radio" id="qno15_ans1"> امریکہ</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno15_ans2"> روس </input><br>
+     <input class="option" type="checkbox" name="radio" id="qno15_ans3"> جنوبی افریقہ</input><br>
+     <input class="option" type="checkbox" name="radio" id="qno15_ans4"> چین </input><br>
+    
+    
+     <br> <button class="result" onclick="check()" >Result</button>
+      <div id="result">
+        <h1>Result</h1>
+     <h2 id="final"></h2>
+      </div>
+      <div class="answers">
+        <h3>Answers</h3>
+               <p id="options">  </p>
+               <br>
+                <h3>percentage</h3>
+          <p id="percentage">
+            
+          </p>
+      
+     
+
+      </div>
+
+
+
+    </fieldset>  </div>
+    </div></div></div>
+                 
+                  
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="javascript/app.js">
+
+    </script>
+</body>
+</html>
